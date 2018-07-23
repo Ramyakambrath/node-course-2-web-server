@@ -17,7 +17,7 @@ pipeline {
         CI = 'true'
       }
       steps {
-        sh './jenkins/scripts/test.sh'
+        sh 'npm test'
       }
     }
   }
